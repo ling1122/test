@@ -5,6 +5,7 @@
 #-----------------------------------------------------------------------------
 # Using read.table to import .txt file
 #remove variable from memory
+
 rm(list=ls())
 etf4<-read.table("ETF4_2000_2018_d.txt")
 # you will get error message! This is because Chinese characters that cannot be recognized!
